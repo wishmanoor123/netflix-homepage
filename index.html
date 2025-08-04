@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Redesign</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <img src="netflix logo.png" alt="Netflix Logo" class="logo" />
+    <div class="header-right">
+      <select class="language-select">
+        <option>English</option>
+        <option>Urdu</option>
+      </select>
+      <button class="sign-in-btn">Sign In</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Unlimited movies, TV shows and more</h1>
+      <p>Watch anywhere. Cancel anytime.</p>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="email-form">
+        <input type="email" placeholder="Email address" required />
+        <a href="#" class="get-started-btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movie Cards -->
+  <section class="cards-section">
+    <h2>Popular on Netflix</h2>
+    <div class="cards-container">
+      <div class="card"><img src="movie 1.jpeg" alt="Movie 1" /></div>
+      <div class="card"><img src="movie 2.jpeg" alt="Movie 2" /></div>
+      <div class="card"><img src="movie 3.webp" alt="Movie 3" /></div>
+      <div class="card"><img src="movie 4.jpeg" alt="Movie 4" /></div>
+      <div class="card"><img src="movie 6.jpg" alt="Movie 5" /></div>
+      <div class="card"><img src="anabelle.jpg" alt="Movie 6" /></div>
+      <div class="card"><img src="Damsel.jpeg" alt="Movie 7" /></div>
+      <div class="card"><img src="images.jpeg" alt="Movie 8" /></div>
+    </div>
+  </section>
+
+  <!-- Sign In Modal -->
+  <div class="modal" id="signinModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h2>Sign In to Netflix</h2>
+      <input type="email" id="modalEmail" placeholder="Enter your email" />
+      <input type="password" id="modalPassword" placeholder="Enter your password" />
+      <button id="modalSubmit">Submit</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Netflix Redesign | Made By Wishma Noor</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
